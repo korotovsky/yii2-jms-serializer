@@ -24,7 +24,7 @@
         "source": "https://github.com/krtv/yii2-jms-serializer"
     },
     "require": {
-        "php": ">=5.4",
+        "php": ">=5.5",
 
         "yiisoft/yii2": "*",
 
