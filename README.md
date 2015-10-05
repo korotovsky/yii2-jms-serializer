@@ -18,7 +18,7 @@ For license information check the [LICENSE](LICENSE.md)-file.
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
-[![Build Status](https://travis-ci.org/krtv/yii2-jms-serializer.svg?branch=2.0.x)](https://travis-ci.org/krtv/yii2-jms-serializer)
+[![Build Status](https://travis-ci.org/korotovsky/yii2-jms-serializer.svg?branch=2.0.x)](https://travis-ci.org/korotovsky/yii2-jms-serializer)
 
 ## Install
 
