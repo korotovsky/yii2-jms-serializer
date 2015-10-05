@@ -18,6 +18,8 @@ For license information check the [LICENSE](LICENSE.md)-file.
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
+[![Build Status](https://travis-ci.org/krtv/yii2-jms-serializer.svg?branch=2.0.x)](https://travis-ci.org/krtv/yii2-jms-serializer)
+
 ## Install
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
