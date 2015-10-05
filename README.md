@@ -25,13 +25,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-php composer.phar require --prefer-dist yiisoft/yii2-jms-serializer
+php composer.phar require --prefer-dist krtv/yii2-jms-serializer
 ```
 
 or add
 
 ```json
-"yiisoft/yii2-jms-serializer": "~2.0.0"
+"krtv/yii2-jms-serializer": "~2.0.0"
 ```
 
 to the require section of your composer.json.
