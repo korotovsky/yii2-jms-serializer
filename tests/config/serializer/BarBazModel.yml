@@ -1,0 +1,14 @@
+krtv\yii2\serializer\tests\dto\BarBazModel:
+    exclusion_policy: ALL
+    properties:
+        baz1:
+            expose:         true
+            type:           array<string, string>
+
+        baz2:
+            expose:         true
+            type:           array<string, string>
+
+        baz3:
+            expose:         true
+            type:           string

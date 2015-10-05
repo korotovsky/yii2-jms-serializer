@@ -1,0 +1,18 @@
+krtv\yii2\serializer\tests\dto\FooBarModel:
+    exclusion_policy: ALL
+    properties:
+        foo1:
+            expose:         true
+            type:           integer
+
+        foo2:
+            expose:         true
+            type:           string
+
+        foo3:
+            expose:         true
+            type:           krtv\yii2\serializer\tests\dto\BarBazModel
+
+        collection:
+            expose:         true
+            type:           array<krtv\yii2\serializer\tests\dto\BarBazModel>

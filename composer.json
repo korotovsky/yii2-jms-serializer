@@ -1,0 +1,43 @@
+{
+    "name": "krtv/yii2-jms-serializer",
+    "description": "JMS Serializer extension for the Yii framework",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "serialization",
+        "deserialization",
+        "json",
+        "jms",
+        "jms-serializer"
+    ],
+    "homepage": "https://github.com/krtv/yii2-jms-serializer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitrii Korotovskii",
+            "email": "dmitry@korotovsky.io",
+            "homepage": "https://korotovsky.io"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/krtv/yii2-jms-serializer/issues",
+        "source": "https://github.com/krtv/yii2-jms-serializer"
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+
+        "jms/serializer": "~1.0.0|~0.16.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "krtv\\yii2\\serializer\\": "src",
+            "krtv\\yii2\\serializer\\tests\\": "tests"
+        }
+    },
+    "extra": {
+        "bootstrap": "krtv\\yii2\\serializer\\Bootstrap"
+    }
+}
