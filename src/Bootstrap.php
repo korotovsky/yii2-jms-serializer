@@ -224,7 +224,7 @@ class Bootstrap implements BootstrapInterface
                 if (isset($definitions[self::getHandlerId($name)])) {
                     $id = self::getHandlerId($name);
                     $class = $definitions[self::getHandlerId($name)]['class'];
-                } elseif (!isset($options['class'])) {
+                } elseif (isset($options['class'])) {
                     $id = $options['class'];
                     $class = $options['class'];
                 } else {
